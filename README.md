@@ -144,13 +144,6 @@ Possible enhancements include:
 
 ---
 
-## Author
-
-Robby Chungo
-BES – 3rd Year, 1st Semester
-
----
-
 ## License
 
 This project is for **educational purposes**.
