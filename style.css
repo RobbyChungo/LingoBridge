@@ -1,0 +1,191 @@
+
+*{
+box-sizing:border-box;
+font-family:system-ui;
+}
+
+body{
+
+margin:0;
+background:linear-gradient(135deg,#e9edf3,#dfe3ea);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+
+}
+
+/* MAIN CONTAINER */
+
+.app-container{
+
+background:#ffffffcc;
+backdrop-filter:blur(10px);
+
+padding:40px;
+border-radius:20px;
+
+width:900px;
+max-width:95%;
+
+box-shadow:0 15px 40px rgba(0,0,0,0.1);
+
+}
+
+/* LANGUAGE BAR */
+
+.language-bar{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:30px;
+
+}
+
+select{
+
+padding:10px 14px;
+border-radius:10px;
+border:1px solid #ddd;
+background:white;
+
+}
+
+#swapBtn{
+
+padding:10px 14px;
+border-radius:10px;
+border:none;
+background:white;
+cursor:pointer;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+/* CARDS */
+
+.cards{
+
+display:flex;
+gap:20px;
+
+}
+
+.card{
+
+flex:1;
+background:#f8f9fb;
+
+padding:20px;
+
+border-radius:16px;
+
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+
+}
+
+.card label{
+
+font-size:14px;
+color:#777;
+
+}
+
+/* TEXT AREA */
+
+textarea{
+
+width:100%;
+border:none;
+background:transparent;
+resize:none;
+
+font-size:22px;
+margin-top:10px;
+
+outline:none;
+
+height:120px;
+
+}
+
+/* CARD FOOTER */
+
+.card-footer{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+margin-top:10px;
+
+font-size:14px;
+
+}
+
+.card-footer button{
+
+border:none;
+background:none;
+cursor:pointer;
+
+color:#555;
+
+}
+
+/* CENTER */
+
+.center{
+
+text-align:center;
+margin-top:30px;
+
+#translateBtn{
+
+background:linear-gradient(135deg,#3b82f6,#38bdf8);
+
+border:none;
+
+padding:16px 50px;
+
+font-size:18px;
+
+color:white;
+
+border-radius:40px;
+
+cursor:pointer;
+
+/* NEW SHADOW */
+box-shadow:0 10px 25px rgba(59,130,246,0.55);
+
+transition:all .25s ease;
+
+}
+
+#translateBtn:hover{
+
+transform:translateY(-3px) scale(1.05);
+
+box-shadow:0 15px 35px rgba(59,130,246,0.75);
+
+}
+
+
+/* LOADING */
+
+#loading{
+
+margin-top:10px;
+display:none;
+color:#666;
+  }
+ }
+ /* DARK MODE */ .dark-mode{ background:#121212; color:white; } .dark-mode .card{ background:#1e1e1e; color:white; } .dark-mode textarea{ background:#1e1e1e; color:white; } .dark-mode select, .dark-mode button{ background:#333; color:white; border:1px solid #444; } /* Dark mode swap button */
+
+.dark-mode #swapBtn{
+background:#1e1e1e;;
+color:white;
+border:1px solid #444;
+}
